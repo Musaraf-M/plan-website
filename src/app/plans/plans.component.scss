@@ -18,14 +18,9 @@
   transition: 0.3s;
 }
 
-.card2 {}
 
 .card:hover {
   box-shadow: -10px 20px 20px #E8E8E8;
-
-  .button {
-    box-shadow: 3px 3px 4px -4px rgba(0, 0, 0, 0.25);
-  }
 }
 
 .starterimg {
@@ -99,7 +94,7 @@
 .eliteimg1 {
   position: relative;
   margin-top: -90px;
-  margin-left: 20px;
+  
 }
 
 .eliteimg2 {
@@ -161,4 +156,9 @@
 
 .contactno {
   margin-bottom: 0px;
+}
+
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+@media(min-width: 370px) and (max-width:430px){
 }
