@@ -1,79 +1,164 @@
-#heading {
+#title {
   text-align: center;
+  font-weight: 700;
+  font-size: 38px;
   letter-spacing: 10px;
-  font-family: 'Montserrat', sans-serif;
-  color: rgb(77, 77, 77);
+  font-family: 'Montserrat';
+  color: #333333, 100%;
 }
 
 .card {
-  /* Add shadows to create the "card" effect */
-  margin-top: 80px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  box-shadow: -10px 10px 10px #E8E8E8;
+  border-radius: 30px;
+  margin-top: 90px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 10px;
   transition: 0.3s;
-  border-radius: 10px;
-  /* 5px rounded corners */
-
 }
 
-/* On mouse-over, add a deeper shadow */
+.card2 {}
+
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: -10px 20px 20px #E8E8E8;
+
+  .button {
+    box-shadow: 3px 3px 4px -4px rgba(0, 0, 0, 0.25);
+  }
 }
 
-/* Add some padding inside the card container */
-.container {
-  padding: 25px 20px 15px;
-}
-
-img {
-  height: 100px;
+.starterimg {
   position: relative;
-  margin-top: -53px;
-  margin-bottom: 10px;
+  margin-top: -60px;
+  margin-left: 5px;
 }
 
-h3 {
-  margin-top: 10px;
-  padding-left: 30px;
-  margin-right: 15px;
-  font-family: 'Montserrat', sans-serif;
+.cardheading1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 40px;
 }
 
-.color1 {
-  color:#fc361c
-}
-
-.color2 {
-
-  color: #5cc471
-}
-
-.color3 {
-  color: #2600e6
-}
-
-.button1 {
-  background-color: #fc361c
-}
-
-.button2 {
-
-  background-color: #5cc471
-}
-
-.button3 {
-  background-color: #2600e6
+.container {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  color: #000000;
 }
 
 .button {
-  top: 30px;
-  position: relative;
-  border: none;
-  color: white;
-  padding: 10px;
-  font-weight: 600;
-  width: 80px;
-  height: 80px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  letter-spacing: 0.02em;
   border-radius: 50%;
-  font-size: 16px;
+  margin-bottom: -50px;
+  background: #FFFFFF;
+  box-shadow: 3px 3px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  pointer-events: none;
+  transition: 0.6s;
+}
+
+.color1 {
+  color: #F50057;
+}
+
+.number {
+  font-size: 20px;
+  font-weight: 700px;
+}
+
+.color2 {
+  color: #009C88;
+}
+
+.color3 {
+  color: #6C63FF;
+}
+
+.elitebtn {
+  background-color: #009C88;
+  color: #FFFFFF;
+}
+
+.eliteimg1 {
+  position: relative;
+  margin-top: -90px;
+  margin-left: 20px;
+}
+
+.eliteimg2 {
+  position: relative;
+  margin-top: -90px;
+  margin-left: -20px;
+}
+
+.cardheading2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.popular {
+  background: #FFFFFF;
+  box-shadow: -5px -5px 12px rgba(0, 156, 136, 0.05), 5px 5px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+  font-family: Montserrat;
+  position: relative;
+  padding: 0px 0px 0px;
+  margin-bottom: -70px;
+  margin-top: 40px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-shadow: -10px -10px 34px rgba(242, 242, 242, 0.05), 4px 4px 34px rgba(0, 0, 0, 0.15);
+  color: #024e44;
+}
+
+.contact {
+  margin-top: 100px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 36px;
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #000000;
+  background: #FFFFFF;
+  box-shadow: -12px -12px 24px rgba(198, 199, 199, 0.1), 6px 6px 24px rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.contact:hover {
+  box-shadow: -12px -12px 24px rgba(198, 199, 199, 0.1), 18px 18px 24px rgba(0, 0, 0, 0.15);
+}
+
+.contactno {
+  margin-bottom: 0px;
 }
